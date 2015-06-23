@@ -1,0 +1,265 @@
+<html>
+	<head>
+		<title>Test</title>
+		
+		<style>
+			.circleBase {
+				border-radius: 50%;
+				behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+				border: 1px solid #607D8B;
+				float: right;
+				text-align:center;
+			}
+			.menu {
+				position:absolute;
+				right:10px;
+				width: 30;
+				height: 30px;
+				border: 2px solid #78909C;
+				padding: 0px, 0px, 0px, 0px;
+				margin:0px;
+				top: 10px;
+			}
+			.teardrop {
+			  margin:auto;
+			  margin-top:6px;
+			  width: 20px;
+			  height: 20px;
+			  overflow: hidden;
+			  border-bottom-right-radius: 50%;
+			  border-bottom-left-radius: 50%;
+			  border-top-left-radius: 50%;
+			  -webkit-transform:rotate(-45deg);
+			  z-index: 99;
+			}
+			.teardrop_front {
+				background-color: #009688;
+			}
+			.teardrop_back {
+				background-color: #607D8B;
+			}
+			.card {
+			  position: relative;
+			  /*float: left;*/
+			  padding-bottom: 25%;
+			  width: 100%;
+			  height: 100%;
+			  text-align: center;
+			}
+
+			.card__front,
+			.card__back {
+			  position: absolute;
+			  top: 0;
+			  left: 0;
+			  width: 100%;
+			  height: 100%;
+			}
+			.card__front,
+			.card__back {
+			  -webkit-backface-visibility: hidden;
+					  backface-visibility: hidden;
+			  -webkit-transition: -webkit-transform 0.3s;
+					  transition: transform 0.3s;
+			}
+
+			.card__back {
+				
+				-webkit-transform: rotateY(-180deg);
+					    transform: rotateY(-180deg);
+			}
+			
+			.card.effect__hover:hover .card__front {
+			  -webkit-transform: rotateY(-180deg);
+					  transform: rotateY(-180deg);
+			}
+			.card.effect__hover:hover .card__back {
+			  -webkit-transform: rotateY(0);
+					  transform: rotateY(0);
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div id='fl_button' class='circleBase menu'>
+			<div class="card effect__hover">
+			  <div class="card__front">
+				<div class="teardrop teardrop_front"></div>
+			  </div>
+			  <div class="card__back">
+				<div class="teardrop teardrop_back"></div>
+			  </div>
+			</div>
+		</div>
+		<p>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			This is a test page.<br>
+			
+		</p>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type='text/javascript'>
+			$(document).scroll(function() { 
+				$('.menu').css('top', $(this).scrollTop()+10);
+			});
+			
+			$('.menu').click(function(){
+				console.log(window.location);
+			});
+			
+		</script>
+	</body>
+</html>
